@@ -3,6 +3,7 @@
        <h1>{{ msg }}</h1>
         <first @sendMsg ='getMsg' :sendGiveSon='giveson'></first>
         <input @click="sendGiveSon" value='给儿子传值' type='button'>
+         <router-link to='/test'>测试一下路由</router-link>
     </div>
    
 </template>
